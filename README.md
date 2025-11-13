@@ -1,6 +1,5 @@
  />
 (https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true)
-
 <p align="center">
   <img src="https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true" 
        alt="William Imex Banner" 

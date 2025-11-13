@@ -1,4 +1,4 @@
-<!-- 🔹 William Imex README with background banner -->
+[<!-- 🔹 William Imex README with background banner -->](https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true)
 
 <p align="center">
   <img src="https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true" 

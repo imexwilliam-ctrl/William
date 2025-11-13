@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/7a65ca26-ccdc-42f5-951f-21fdf4cbc71b" />
+ />
 (https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true)
 
 <p align="center">

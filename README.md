@@ -1,8 +1,14 @@
 
 # 🌍 William Imex  
 ### Import & Export & Travel | Shipping & Logistics Services  
+<!-- 🌍 William Imex README | Black & Gold Style -->
 
----
+<div style="background-color:#000000; color:#d4af37; padding:40px; border-radius:12px; font-family:Arial;">
+
+<h1 align="center">🌍 William Imex</h1>
+<h3 align="center">Import & Export & Travel | Shipping & Logistics Services</h3>
+
+<hr style="border:1px solid #d4af37;">
 
 ## 🚀 About Us  
 **William Imex** is a professional import and export company connecting markets across **Germany, Lebanon, Syria, and China**.  
@@ -57,6 +63,12 @@ Import & Export Services
 ## 🛠️ Currently Building  
 > Our full website is under construction and will launch soon.  
 > Stay tuned for updates on [www.williamimex.com](http://www.williamimex.com)
+
+---
+
+<p align="center"><b>© 2025 William Imex | All Rights Reserved</b></p>
+
+</div>
 
 ---
 

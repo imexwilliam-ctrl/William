@@ -1,4 +1,5 @@
-[<!-- 🔹 William Imex README with background banner -->](https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true)
+[<!-- 🔹 William Imex README with background ba<img width="1024" height="1536" alt="1710191B-B299-4E80-8932-5A55624EDCD0" src="https://github.com/user-attachments/assets/aaf5fe10-fbec-4254-8b0e-e58525ce33be" />
+nner -->](https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true)
 
 <p align="center">
   <img src="https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true" 

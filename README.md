@@ -1,5 +1,5 @@
 # 🌍 William Imex  
-### Import & Export | Shipping & Logistics Services  
+### Import & Export& travel | Shipping & Logistics Services  
 
 ---
 
@@ -30,7 +30,7 @@ Our mission is to make global trade easier, faster, and more reliable for our pa
 ## 📞 Contact Us  
 
 **William Imex**  
-*Import & Export Services*  
+*Import & Export& Services*  
 📍 Lebanon | Germany  
 
 📞 **Lebanon:** +961 81858968  

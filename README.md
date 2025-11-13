@@ -1,41 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>William Imex | Coming Soon</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background-image: url('background.png'); /* غيرها باسم الصورة يلي رفعتها */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      font-family: "Poppins", sans-serif;
-      color: gold;
-      text-align: center;
-    }
-    h1 {
-      font-size: 60px;
-      margin: 0;
-      text-shadow: 2px 2px 10px black;
-    }
-    p {
-      font-size: 24px;
-      color: white;
-      text-shadow: 1px 1px 5px black;
-    }
-  </style>
-</head>
-<body>
-  <h1>🌍 William Imex</h1>
-  <p>Import & Export | Shipping & Logistics</p>
-  <p>Germany • Lebanon • Syria • China</p>
-  <p><b>Coming Soon...</b></p>
-</body>
-</html>
+# 🌍 William Imex  
+### Import & Export | Shipping & Logistics Services  
+
+---
+
+## 🚀 About Us  
+**William Imex** is a professional import and export company connecting markets across **Germany, Lebanon, Syria, and China**.  
+We provide end-to-end logistics, sourcing, and freight forwarding solutions — from supplier coordination to final delivery.  
+Our mission is to make global trade easier, faster, and more reliable for our partners.
+
+---
+
+## 🧭 Our Services  
+- 🌐 **Import & Export Solutions** – Trusted sourcing from Asia and Europe  
+- 🚢 **International Shipping** – Sea, Air, and Land freight  
+- 🏭 **Product Sourcing** – Direct supplier and factory connections  
+- 📦 **Customs & Clearance Support**  
+- ✈️ **Flight Tickets & Travel Coordination** (Business Clients)  
+
+---
+
+## 🌏 Trade Regions  
+🇨🇳 **China** – Manufacturing and sourcing  
+🇩🇪 **Germany** – European distribution & logistics hub  
+🇱🇧 **Lebanon** – Middle-East coordination  
+🇸🇾 **Syria** – Local trade and delivery network  
+
+---
+
+## 📞 Contact Us  
+
+**William Imex**  
+*Import & Export Services*  
+📍 Lebanon | Germany  
+
+📞 **Lebanon:** +961 81858968  
+📞 **Germany:** +49 15511334369  
+✉️ **Email:** [williamimex@outlook.com](mailto:williamimex@outlook.com)  
+✉️ **Gmail:** [imexwilliam@gmail.com](mailto:imexwilliam@gmail.com)  
+🌐 **Website:** [www.williamimex.com](http://www.williamimex.com)  
+
+---
+
+## ⚙️ Official Signature  
+---
+
+## 🛠️ Currently Building  
+> Our full website is under construction and will launch soon.  
+> Stay tuned for updates on [www.williamimex.com](http://www.williamimex.com)
+
+---
+
+**© 2025 William Imex | All Rights Reserved**

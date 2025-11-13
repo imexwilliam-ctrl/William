@@ -1,11 +1,8 @@
 
 <img width="1024" height="1536" alt="1710191B-B299-4E80-8932-5A55624EDCD0" src="https://github.com/user-attachments/assets/6319396c-23ef-417e-a81b-a90f6f798e4e" />
 <p align="center">
-  <img src="https://github.com/USERNAME/REPOSITORY/blob/main/background.jpg?raw=true" 
-       alt="William Imex Banner" 
-       style="width:100%; border-radius:10px;"/>
+  <img 
 </p>
-
 # 🌍 William Imex  
 ### Import & Export & Travel | Shipping & Logistics Services  
 

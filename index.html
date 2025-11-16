@@ -77,21 +77,6 @@ body::before{
   .globe{width:260px;height:260px}
   .plane,.truck{display:none}
 
-.plane {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 120px;
-  transform: translateX(-50%);
-  animation: flyUp 6s linear infinite;
-}
-
-@keyframes flyUp {
-  0% { top: 100%; opacity: 1; }
-  70% { opacity: 1; }
-  100% { top: -20%; opacity: 0; }
-}
-
 </style>
 </head>
 <body>
@@ -113,10 +98,8 @@ body::before{
         <strong>الصين</stوrong> — <strong>ألمانيا</strong> — <strong>لبنان</strong> — <strong>سوريا</strong>.<br>
         نقدم: شحن جوي وبحري وبري، التخليص الجمركي، التوصيل الداخلي، وتنظيم شحنات كاملة من المورد حتى المستلم.
       </p>
-
-      <img src="plane.jpg" class="plane">
-
-      <div class="visual-wrap" aria-hidden="true">
+      
+            <div class="visual-wrap" aria-hidden="true">
         <div class="globe" role="img" aria-label="Globe">
           <img src="rrr.jpg" alt="globe" />
         </div>

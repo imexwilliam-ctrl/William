@@ -7,6 +7,43 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
+.neon-title {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  color: #ffd700; /* لون النص الذهبي */
+  text-shadow:
+    0 0 4px #ffd700,
+    0 0 8px #ffd700,
+    0 0 16px #ffd700,
+    0 0 32px #ffd700,
+    0 0 50px rgba(255,215,0,0.8); /* لمعان إضافي */
+  animation: neonPulse 2.7s infinite ease-in-out;
+}
+
+@keyframes neonPulse {
+  0% {
+    opacity: 0.85;
+    text-shadow:
+      0 0 5px #ffd700,
+      0 0 15px #ffd700,
+      0 0 30px #ffd700;
+  }
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 0 8px #fff176,
+      0 0 22px #fff176,
+      0 0 45px #fff176,
+      0 0 70px #fff176;
+  }
+  100% {
+    opacity: 0.9;
+    text-shadow:
+      0 0 5px #ffd700,
+      0 0 20px #ffd700,
+      0 0 35px #ffd700;
+  }
+}
 .custom-subtitle {
   font-family: "Poppins", sans-serif; /* خط جديد – يمكن تغييره لأي خط آخر */
   font-weight: 800; /* عريض جدًا */

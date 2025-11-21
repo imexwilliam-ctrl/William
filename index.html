@@ -7,6 +7,24 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
+.logo-anim {
+  animation: pulseLogo 3s ease-in-out infinite;
+}
+
+@keyframes pulseLogo {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 6px rgba(255,255,255,0.3));
+  }
+  50% {
+    transform: scale(1.07);
+    filter: drop-shadow(0 0 28px rgba(255,255,255,1));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 6px rgba(255,255,255,0.3));
+  }
+}
  .white-bold {
   color: #ffffff !important;
   font-weight: 900 !important;
@@ -161,7 +179,7 @@ body::before{
 
     <!-- right column -->
     <aside class="side" aria-label="Contact and Services">
-      <h3 id="main-title" class="fancy-title"> Contact</h3>
+      <h3 id="main-title" class="fancy-title"> CONTACT</h3>
 
       <div class="contact">
         <p>📍 <strong>Lebanon 🇱🇧</strong> | <strong>Germany 🇩🇪</strong></p>
@@ -184,7 +202,7 @@ body::before{
         </div>
 
         <div class="services" aria-label="services">
-          <strong style="color:var(--gold)">خدماتنا / Our Services</strong>
+          <strong style="color:var(--gold)"id="main-title" class="fancy-title">خدماتنا  OUR SERVICES</strong>
           <ul style="margin:8px 0 0 16px;padding:0;color:#ddd;line-height:1.6">
             <li>🔸خدمة سفر متكاملة: تذاكر، إقامات، حجز فنادق بأســعار منافسة</li>
             <li>🔸 شحن جوي وبحري وبري  Air / Sea / Road</li>

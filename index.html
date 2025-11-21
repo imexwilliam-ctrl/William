@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8"/>
@@ -7,49 +7,29 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-.neon-gold {
-  color: #"ffg700
+/* ✨ تأثير خط مزخرف ذهبي يلمع ويتحرّك */
+.fancy-title {
   font-weight: 900;
-  text-shadow:
-    0 0 4px #ffd700,
-    0 0 8px #ffd700,
-    0 0 16px #ffd700,
-    0 0 28px rgba(255, 215, 0, 0.9),
-    0 0 45px rgba(255, 215, 0, 1);
-  letter-spacing: 1px;
-  animation: goldPulse 2s infinite ease-in-out;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(90deg, #b38600, #ffd75e, #b38600);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldMove 4s linear infinite, goldGlow 2.2s ease-in-out infinite;
 }
 
-@keyframes goldPulse {
-  0% {
-    text-shadow:
-      0 0 4px #ffd700,
-      0 0 10px #ffd700,
-      0 0 20px #ffd700,
-      0 0 30px rgba(255, 215, 0, 0.8);
-  }
-  50% {
-    text-shadow:
-      0 0 6px #fff4b3,
-      0 0 14px #fff4b3,
-      0 0 30px #ffd700,
-      0 0 55px rgba(255, 215, 0, 1);
-  }
-  100% {
-    text-shadow:
-      0 0 4px #ffd700,
-      0 0 10px #ffd700,
-      0 0 22px #ffd700,
-      0 0 35px rgba(255, 215, 0, 0.9);
-  }
+/* حركة لمعان وتمرير */
+@keyframes goldMove {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
 }
-.gold-shadow {
-  text-shadow:
-    0 0 6px #ffd700,
-    0 0 12px #ffd700,
-    0 0 18px #ffd700,
-    0 0 26px #ffd700;
-}
+
+/* نبض ضوئي */
+@keyframes goldGlow {
+  0% { text-shadow: 0 0 8px rgba(255,215,90,0.2); }
+  50% { text-shadow: 0 0 26px rgba(255,215,90,0.9); }
+  100% { text-shadow: 0 0 8px rgba(255,215,90,0.2); }
+} 
 :root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
@@ -114,7 +94,7 @@ body::before{
 /* responsive */
 @media(max-width:980px){
   .card{grid-template-columns:1fr;padding:22px}
-  .title{font-size:37px}
+  .title{font-size:34px}
   .coming{font-size:26px}
   .globe{width:260px;height:260px}
   .plane,.truck{display:none}
@@ -128,7 +108,7 @@ body::before{
       <div class="header">
         <img src="hero.jpg" alt="logo" style="width:120px; height:auto;">
         <div>
-          <h1 id="main-title" class="gold-shadow">williamimex</h1>
+          <h1 class="title fancy-title">williamimex</h1>
           <div class="tag">Travel _ Import &  Export </div>
         </div>
       </div>
@@ -175,7 +155,7 @@ body::before{
 
     <!-- right column -->
     <aside class="side" aria-label="Contact and Services">
-      <h3 class="neon-gold"> CONTACT</h3>
+      <h3class="title fancy-title"> CONTACT</h3>
 
       <div class="contact">
         <p>📍 <strong>Lebanon 🇱🇧</strong> | <strong>Germany 🇩🇪</strong></p>
@@ -198,7 +178,7 @@ body::before{
         </div>
 
         <div class="services" aria-label="services">
-          <strong class="neon-gold">OUR SERVICES</strong>
+          <strong class="title fancy-title">OURSERVICES </strong>
           <ul style="margin:8px 0 0 16px;padding:0;color:#ddd;line-height:1.6">
             <li>🔸خدمة سفر متكاملة: تذاكر، إقامات، حجز فنادق بأســعار منافسة</li>
             <li>🔸 شحن جوي وبحري وبري  Air / Sea / Road</li>

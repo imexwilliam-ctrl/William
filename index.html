@@ -3,20 +3,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Williamimex — Coming  Soon</title>
+<title>Williamimex — Coming Soon</title>
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
-/* ---------- VARIABLES ---------- */
 :root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
   --dark:#050505;
   --glass: rgba(255,255,255,0.03);
 }
-
-/* ---------- BASIC RESET ---------- */
 *{box-sizing:border-box}
 html,body{
   height:100%;
@@ -25,8 +22,6 @@ html,body{
   font-family:"Cairo","Poppins",sans-serif;
   color:#fff;
 }
-
-/* ---------- BACKGROUND ---------- */
 body::before{
   content:"";
   position:fixed;inset:0;
@@ -35,7 +30,7 @@ body::before{
   z-index:0;
 }
 
-/* ---------- PAGE ANIMATIONS ---------- */
+/* Fade-in animation */
 .fade-in{
   animation:fadeIn 1.5s ease forwards;
   opacity:0;
@@ -45,17 +40,17 @@ body::before{
   100%{opacity:1; transform:translateY(0)}
 }
 
-/* glowing coming soon */
+/* Glow pulse animation for Coming Soon */
 .glow{
-  animation:glowPulse 2s infinite ease-in-out;
+  animation:glowPulse 2.2s infinite;
 }
 @keyframes glowPulse{
-  0%{text-shadow:0 0 6px rgba(255,209,59,.4)}
-  50%{text-shadow:0 0 22px rgba(255,209,59,.9)}
-  100%{text-shadow:0 0 6px rgba(255,209,59,.4)}
+  0%{opacity:0.7; text-shadow:0 0 10px rgba(247,189,0,.3);}
+  50%{opacity:1; text-shadow:0 0 25px rgba(247,189,0,.9);}
+  100%{opacity:0.7; text-shadow:0 0 10px rgba(247,189,0,.3);}
 }
 
-/* ---------- LAYOUT ---------- */
+/* Layout */
 .wrap{
   position:relative;
   z-index:1;
@@ -79,7 +74,7 @@ body::before{
   align-items:center;
 }
 
-/* ---------- HEADER ---------- */
+/* Header */
 .header{
   display:flex;
   gap:16px;
@@ -99,23 +94,15 @@ body::before{
   font-size:15px;
 }
 
-/* ---------- COMING SOON ---------- */
+/* Coming Soon */
 .coming{
   margin-top:18px;
   font-size:36px;
   color:var(--gold);
   font-weight:700;
 }
-.glow{
-  animation:glowPulse 2.2s infinite;
-}
-@keyframes glowPulse{
-  0%{opacity:0.7; text-shadow:0 0 10px rgba(247,189,0,.3);}
-  50%{opacity:1; text-shadow:0 0 25px rgba(247,189,0,.9);}
-  100%{opacity:0.7; text-shadow:0 0 10px rgba(247,189,0,.3);}
-}
 
-/* ---------- DESCRIPTION ---------- */
+/* Description */
 .desc{
   margin-top:14px;
   color:#eaeaea;
@@ -124,7 +111,7 @@ body::before{
   max-width:820px;
 }
 
-/* ---------- VISUAL CENTER GLOBE ---------- */
+/* Globe & Visual */
 .visual-wrap{
   display:flex;
   flex-direction:column;
@@ -132,7 +119,6 @@ body::before{
   gap:16px;
   margin-top:18px;
 }
-
 .globe{
   width:360px;
   height:360px;
@@ -146,8 +132,6 @@ body::before{
   overflow:hidden;
   position:relative;
 }
-
-/* ---------- ANIMATED PLANE ---------- */
 .plane{
   position:absolute;
   top:-10%; left:-20%;
@@ -160,8 +144,6 @@ body::before{
   50%{transform:translateX(60vw) rotate(-2deg)}
   100%{transform:translateX(140vw) rotate(-8deg)}
 }
-
-/* ---------- ANIMATED TRUCK ---------- */
 .truck{
   position:absolute;
   bottom:-6%; right:-25%;
@@ -175,7 +157,7 @@ body::before{
   100%{transform:translateX(0)}
 }
 
-/* ---------- RIGHT SIDE ---------- */
+/* Right Side */
 .side{
   background:linear-gradient(180deg, rgba(0,0,0,0.12), rgba(0,0,0,0.02));
   padding:20px;
@@ -188,14 +170,14 @@ body::before{
   font-size:20px;
 }
 
-/* ---------- CONTACT (LTR FIX) ---------- */
+/* Contact (LTR only for numbers/emails) */
 .ltr{
   direction:ltr;
   text-align:left;
   display:block;
 }
 
-/* ---------- BUTTONS ---------- */
+/* Buttons */
 .btns{
   display:flex;
   flex-direction:column;
@@ -219,7 +201,7 @@ body::before{
   border:0;
 }
 
-/* ---------- COUNTDOWN ---------- */
+/* Countdown */
 .countdown{
   display:flex;
   gap:8px;
@@ -247,7 +229,7 @@ body::before{
   margin-top:4px;
 }
 
-/* ---------- FOOTER ---------- */
+/* Footer */
 .footer{
   grid-column:1/-1;
   margin-top:18px;
@@ -256,7 +238,7 @@ body::before{
   font-size:13px;
 }
 
-/* ---------- RESPONSIVE ---------- */
+/* Responsive */
 @media(max-width:980px){
   .card{grid-template-columns:1fr; padding:22px}
   .title{font-size:34px}
@@ -291,7 +273,7 @@ body::before{
 
       <div class="visual-wrap">
         <div class="globe">
-          <img src="rrr.jpg" alt="" style="width: 325px; height:auto">
+          <img src="rrr.jpg" alt="" style="width:325px;height:auto;">
         </div>
 
         <div class="plane">
@@ -323,12 +305,13 @@ body::before{
       <h3>تواصل / Contact</h3>
 
       <div class="contact">
-        <p>📍 <strong>Lebanon 🇱🇧</strong> | <strong>Germany 🇩🇪</strong></p>
+        <!-- Lebanon/Germany LTR -->
+        <p class="ltr">📍 Lebanon 🇱🇧 | Germany 🇩🇪</p>
 
         <p class="ltr">📞 Lebanon: <a href="tel:+96181858968">+961 81858968</a></p>
         <p class="ltr">📞 Germany: <a href="tel:+4915511334369">+49 15511334369</a></p>
 
-        <p class="ltr">✉ Email: <a href="mailto:williamimex@outlook.com">williamimex@outlook.com</a></p>
+        <p class="ltr">✉️ Email: <a href="mailto:williamimex@outlook.com">williamimex@outlook.com</a></p>
         <p class="ltr">📧 Gmail: <a href="mailto:imexwilliam@gmail.com">imexwilliam@gmail.com</a></p>
 
         <p class="ltr">🌐 Website: <a href="https://williamimex.com" target="_blank">williamimex.com</a></p>
@@ -336,12 +319,12 @@ body::before{
         <div class="btns ltr">
           <a class="btn whatsapp" href="https://wa.me/+4915511334369" target="_blank">🇩🇪 Whatsapp</a>
           <a class="btn" href="tel:+96181858968">🇱🇧 Call Now</a>
-          <a class="btn" href="mailto:williamimex@outlook.com">✉ Inbox</a>
+          <a class="btn" href="mailto:williamimex@outlook.com">✉️ Inbox</a>
         </div>
       </div>
     </aside>
 
-    <div class="footer">© <span id="yr"></span> William Imex — All rights reserved.</div>
+    <div class="footer">©️ <span id="yr"></span> William Imex — All rights reserved.</div>
   </div>
 </div>
 

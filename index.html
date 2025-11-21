@@ -7,6 +7,50 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
+.neon-subtitle {
+  font-family: "Orbitron", sans-serif; /* نفس خط العنوان */
+  font-weight: 900;
+  color: #ffffff; /* اللون الأبيض للنص */
+  text-shadow:
+    0 0 4px #ffffff,
+    0 0 8px #ffffff,
+    0 0 16px #ffffff,
+    0 0 24px #ffffff,
+    0 0 32px #ffffff;
+  font-size: 24px; /* حجم الخط الكبير */
+  letter-spacing: 1px;
+  animation: neonPulseSub 2.5s infinite ease-in-out;
+}
+
+@keyframes neonPulseSub {
+  0% {
+    text-shadow:
+      0 0 4px #ffffff,
+      0 0 8px #ffffff,
+      0 0 16px #ffffff,
+      0 0 24px #ffffff,
+      0 0 32px #ffffff;
+    opacity: 0.85;
+  }
+  50% {
+    text-shadow:
+      0 0 6px #ffffff,
+      0 0 14px #ffffff,
+      0 0 28px #ffffff,
+      0 0 42px #ffffff,
+      0 0 60px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    text-shadow:
+      0 0 4px #ffffff,
+      0 0 8px #ffffff,
+      0 0 16px #ffffff,
+      0 0 24px #ffffff,
+      0 0 32px #ffffff;
+    opacity: 0.9;
+  }
+}
 /* تأثير ذهبي مزخرف + لمعان + حركة */
 .fancy-title {
   font-weight: 900;
@@ -109,7 +153,7 @@ body::before{
         <img src="hero.jpg" alt="logo" style="width:120px; height:auto;">
         <div>
           <h1 id="main-title" class="fancy-title">william imex</h1>
-          <div class="tag white-bold">TRAVEL    IMPORT & EXPORT</div>
+          <div class="tag neon-subtitle">TRAVEL _ IMPORT & EXPORT</div>
         </div>
       </div>
 

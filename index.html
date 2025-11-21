@@ -3,39 +3,48 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
 <title>Williamimex — Coming Soon</title>
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-  .white-bold {
-  color: #ffffff !important;
-  font-weight: 900 !important;
-  font-size: 17px;
-  letter-spacing: 0.7px;
-}
-  /* تأثير ذهبي مزخرف + لمعان + حركة */
-.fancy-title {
+.neon-title {
+  font-family: "Orbitron", sans-serif;
   font-weight: 900;
-  font-family: "Cairo", sans-serif;
-  background: linear-gradient(90deg, #b27a00, #ffd978, #ffedb0, #b27a00);
-  background-size: 300%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: goldMove 5s linear infinite, goldGlow 2.5s ease-in-out infinite;
+  color: #00eaff;
+  text-shadow:
+    0 0 4px #00eaff,
+    0 0 8px #00eaff,
+    0 0 16px #00eaff,
+    0 0 32px #00eaff,
+    0 0 50px rgba(0,234,255,0.8);
+  animation: neonPulse 2.7s infinite ease-in-out;
 }
 
-/* حركة تمرير الذهب */
-@keyframes goldMove {
-  0% { background-position: 0%; }
-  100% { background-position: 300%; }
-}
-
-/* نبض ضوئي */
-@keyframes goldGlow {
-  0% { text-shadow: 0 0 8px rgba(255,220,120,0.2); }
-  50% { text-shadow: 0 0 30px rgba(255,220,120,0.9); }
-  100% { text-shadow: 0 0 8px rgba(255,220,120,0.2); }
-}
+@keyframes neonPulse {
+  0% {
+    text-shadow:
+      0 0 5px #00eaff,
+      0 0 15px #00eaff,
+      0 0 30px #00eaff;
+    opacity: 0.85;
+  }
+  50% {
+    text-shadow:
+      0 0 8px #00f7ff,
+      0 0 22px #00f7ff,
+      0 0 45px #00f7ff,
+      0 0 70px #00f7ff;
+    opacity: 1;
+  }
+  100% {
+    text-shadow:
+      0 0 5px #00eaff,
+      0 0 20px #00eaff,
+      0 0 35px #00eaff;
+    opacity: 0.9;
+  }
+}  
 :root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
@@ -113,12 +122,13 @@ body::before{
     <div>
       <div class="header">
         <img src="hero.jpg" alt="logo" style="width:120px; height:auto;">
-         <div>
-           <h1 id="main-title" class="fancy-title">Williamimex</h1> 
-            <div class="tag white-bold">TRAVEL IMPORT&EXPORT</div>
-           </div>
-         </div>
-      <rdiv class="coming">🚀 Coming Soon</div>
+        <div>
+          <h1 id="main-title" class="neon-title">WILLIAMIMEX</h1>
+          <div class="tag">Travel _ Import &  Export </div>
+        </div>
+      </div>
+
+      <div class="coming">🚀 Coming Soon</div>
 
       <p class="desc">
         <strong>       نحن نعمل الآن على إطلاق الموقع الرسمي لشركتنا  خدمات متكاملة لسفر
@@ -160,7 +170,7 @@ body::before{
 
     <!-- right column -->
     <aside class="side" aria-label="Contact and Services">
-      <h3 id="main-title" class="fancy-title"> CONTACT</h3>
+      <h3>تواصل / Contact</h3>
 
       <div class="contact">
         <p>📍 <strong>Lebanon 🇱🇧</strong> | <strong>Germany 🇩🇪</strong></p>
@@ -183,7 +193,7 @@ body::before{
         </div>
 
         <div class="services" aria-label="services">
-          <strong style="color:var(--gold)"id="main-title" class="fancy-title">خدماتنا  OUR SERVICES</strong>
+          <strong style="color:var(--gold)">خدماتنا / Our Services</strong>
           <ul style="margin:8px 0 0 16px;padding:0;color:#ddd;line-height:1.6">
             <li>🔸خدمة سفر متكاملة: تذاكر، إقامات، حجز فنادق بأســعار منافسة</li>
             <li>🔸 شحن جوي وبحري وبري  Air / Sea / Road</li>

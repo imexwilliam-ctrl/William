@@ -11,14 +11,44 @@
 .neon-title {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
-  color: #00eaff;
+  color: #ffd700; /* لون النص الذهبي الداخلي */
   text-shadow:
-    0 0 4px #00eaff,
-    0 0 8px #00eaff,
-    0 0 16px #00eaff,
-    0 0 32px #00eaff,
-    0 0 50px rgba(0,234,255,0.8);
-  animation: neonPulse 2.7s infinite ease-in-out;
+    0 0 6px #ffffff,   /* ضوء خارجي أبيض */
+    0 0 12px #ffffff, 
+    0 0 24px #ffffff,
+    0 0 36px #ffd700,  /* لمعان ذهبي داخلي */
+    0 0 48px #ffd700;
+  animation: neonPulse 2.5s infinite ease-in-out;
+}
+
+@keyframes neonPulse {
+  0% {
+    opacity: 0.85;
+    text-shadow:
+      0 0 6px #ffffff,
+      0 0 12px #ffffff,
+      0 0 24px #ffffff,
+      0 0 36px #ffd700,
+      0 0 48px #ffd700;
+  }
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 0 10px #ffffff,
+      0 0 22px #ffffff,
+      0 0 40px #ffffff,
+      0 0 50px #ffd700,
+      0 0 70px #ffd700;
+  }
+  100% {
+    opacity: 0.9;
+    text-shadow:
+      0 0 6px #ffffff,
+      0 0 12px #ffffff,
+      0 0 24px #ffffff,
+      0 0 36px #ffd700,
+      0 0 48px #ffd700;
+  }
 }
 
 @keyframes neonPulse {

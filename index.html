@@ -7,6 +7,29 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
+  /* تأثير ذهبي مزخرف + لمعان + حركة */
+.fancy-title {
+  font-weight: 900;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(90deg, #b27a00, #ffd978, #ffedb0, #b27a00);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldMove 5s linear infinite, goldGlow 2.5s ease-in-out infinite;
+}
+
+/* حركة تمرير الذهب */
+@keyframes goldMove {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+}
+
+/* نبض ضوئي */
+@keyframes goldGlow {
+  0% { text-shadow: 0 0 8px rgba(255,220,120,0.2); }
+  50% { text-shadow: 0 0 30px rgba(255,220,120,0.9); }
+  100% { text-shadow: 0 0 8px rgba(255,220,120,0.2); }
+}
 :root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
@@ -85,7 +108,7 @@ body::before{
       <div class="header">
         <img src="hero.jpg" alt="logo" style="width:120px; height:auto;">
         <div>
-          <h1 class="title glow-title">Williamimex</h1>
+          <h1 id="main-title" class="fancy-title">WILLIAMIMEX</h1>
           <div class="tag">Travel _ Import &  Export </div>
         </div>
       </div>

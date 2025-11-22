@@ -7,43 +7,7 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-.soft-gold-title {
-    font-family: "Poppins", sans-serif;
-    font-size: 26px;      /* حجم صغير ناعم */
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #d4af37;       /* الذهبي */
-    
-    /* لمعة ذهبية ناعمة حول النص */
-    text-shadow:
-        0 0 4px rgba(255, 215, 0, 0.40),
-        0 0 8px rgba(255, 215, 0, 0.25),
-        0 0 12px rgba(255, 215, 0, 0.18);
-
-    animation: softShine 2.2s infinite ease-in-out;
-}
-
-@keyframes softShine {
-    0% {
-        text-shadow:
-            0 0 3px rgba(255, 200, 0, 0.35),
-            0 0 6px rgba(255, 200, 0, 0.22),
-            0 0 10px rgba(255, 200, 0, 0.15);
-    }
-    50% {
-        text-shadow:
-            0 0 6px rgba(255, 240, 150, 0.55),
-            0 0 12px rgba(255, 215, 0, 0.45),
-            0 0 20px rgba(255, 200, 0, 0.30);
-    }
-    100% {
-        text-shadow:
-            0 0 3px rgba(255, 200, 0, 0.35),
-            0 0 6px rgba(255, 200, 0, 0.22),
-            0 0 10px rgba(255, 200, 0, 0.15);
-    }
-}
-root{
+:root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
   --dark:#050505;
@@ -119,17 +83,17 @@ body::before{
   <div class="card" role="main" aria-labelledby="main-title">
     <div>
       <div class="header">
-        <img src="hero.jpg" alt="logo" style="width:110px; height:auto;">
+        <img src="hero.jpg" alt="logo" style="width:120px; height:auto;">
         <div>
-          <div class="soft-gold-title">TRAVEL • IMPORT & EXPORT</div>
-          <div font-weight: bold;900>Travel _ Import &  Export </div>
+          <h1 id="main-title">Williamimex</h1>
+          <div class="tag">Travel _ Import &  Export </div>
         </div>
       </div>
 
       <div class="coming">🚀 Coming Soon</div>
 
       <p class="desc">
-        <strong>       نحن نعمل الآن على إطلاق الموقع الرسمي لشركتنا  خدمات متكاملة ل سفر
+        <strong>       نحن نعمل الآن على إطلاق الموقع الرسمي لشركتنا  خدمات متكاملة لسفر
        استيراد - تصدير والشحن بين الصين</stوrong> — <strong>ألمانيا</strong> — <strong>لبنان</strong> — <strong>سوريا</strong>.<br>
         نقدم: شحن جوي وبحري وبري، التخليص الجمركي، التوصيل الداخلي، وتنظيم شحنات كاملة من المورد حتى المستلم.
       </p>
@@ -168,7 +132,7 @@ body::before{
 
     <!-- right column -->
     <aside class="side" aria-label="Contact and Services">
-      <strong class="title fancy-title">CONTACT </strong>
+      <h3>تواصل / Contact</h3>
 
       <div class="contact">
         <p>📍 <strong>Lebanon 🇱🇧</strong> | <strong>Germany 🇩🇪</strong></p>
@@ -191,7 +155,7 @@ body::before{
         </div>
 
         <div class="services" aria-label="services">
-          <strong class="title fancy-title">OURSERVICES </strong>
+          <strong style="color:var(--gold)">خدماتنا / Our Services</strong>
           <ul style="margin:8px 0 0 16px;padding:0;color:#ddd;line-height:1.6">
             <li>🔸خدمة سفر متكاملة: تذاكر، إقامات، حجز فنادق بأســعار منافسة</li>
             <li>🔸 شحن جوي وبحري وبري  Air / Sea / Road</li>

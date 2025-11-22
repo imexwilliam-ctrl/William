@@ -7,45 +7,43 @@
 <meta name="description" content="Williamimex — Import & Export | Shipping & Logistics between China, Germany, Lebanon & Syria" />
 <link href="https://fonts.googleapis.com/css2?cairo=Poppins:wght@300;400;600;700;800&circlearrowleft;=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-lux-title {
-    font-family: "Cinzel", serif;
-    font-size: 64px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #d4af37; /* ذهبي */
+.soft-gold-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;      /* حجم صغير ناعم */
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #d4af37;       /* الذهبي */
     
-    /* نيون ذهبي راقي */
+    /* لمعة ذهبية ناعمة حول النص */
     text-shadow:
-        0 0 6px rgba(255, 215, 0, 0.4),
-        0 0 12px rgba(255, 215, 0, 0.35),
-        0 0 18px rgba(255, 200, 0, 0.28);
+        0 0 4px rgba(255, 215, 0, 0.40),
+        0 0 8px rgba(255, 215, 0, 0.25),
+        0 0 12px rgba(255, 215, 0, 0.18);
 
-    /* لمعة ناعمة راقية */
-    animation: goldPulse 2.5s infinite ease-in-out;
+    animation: softShine 2.2s infinite ease-in-out;
 }
 
-@keyframes goldPulse {
+@keyframes softShine {
     0% {
         text-shadow:
-            0 0 6px rgba(255,215,0,0.35),
-            0 0 12px rgba(255,215,0,0.28),
-            0 0 18px rgba(255,200,0,0.2);
+            0 0 3px rgba(255, 200, 0, 0.35),
+            0 0 6px rgba(255, 200, 0, 0.22),
+            0 0 10px rgba(255, 200, 0, 0.15);
     }
     50% {
         text-shadow:
-            0 0 12px rgba(255,255,180,0.55),
-            0 0 22px rgba(255,215,0,0.45),
-            0 0 38px rgba(255,200,0,0.35);
+            0 0 6px rgba(255, 240, 150, 0.55),
+            0 0 12px rgba(255, 215, 0, 0.45),
+            0 0 20px rgba(255, 200, 0, 0.30);
     }
     100% {
         text-shadow:
-            0 0 6px rgba(255,215,0,0.35),
-            0 0 12px rgba(255,215,0,0.28),
-            0 0 18px rgba(255,200,0,0.2);
+            0 0 3px rgba(255, 200, 0, 0.35),
+            0 0 6px rgba(255, 200, 0, 0.22),
+            0 0 10px rgba(255, 200, 0, 0.15);
     }
 }
- root{
+root{
   --gold:#f7bd00fe;
   --muted:#cfcfcf;
   --dark:#050505;
@@ -123,8 +121,8 @@ body::before{
       <div class="header">
         <img src="hero.jpg" alt="logo" style="width:110px; height:auto;">
         <div>
-          <h1 class="lux-title">williamimex</h1>
-          <div font-weight: bold;700>Travel _ Import &  Export </div>
+          <div class="soft-gold-title">TRAVEL • IMPORT & EXPORT</div>
+          <div font-weight: bold;900>Travel _ Import &  Export </div>
         </div>
       </div>
 
